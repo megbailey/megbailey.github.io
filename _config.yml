@@ -1,8 +1,8 @@
 # Site settings
 title: Megan Bailey
 description: 'A personal developer site for projects'
-url: 'https://megbailey.github.io'
-#baseurl: '/home'
+url: ''
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
