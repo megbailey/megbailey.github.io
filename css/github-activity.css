@@ -54,7 +54,8 @@ span.gha-time {
 }
 
 .gha-feed a {
-  color: lightgrey;
+  color: #7aa7dc;
+
   text-decoration: none;
   font-weight: bold;
 }
