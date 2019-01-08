@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <meta name="robots" content="noindex">
-
+        
 
         <title>Megan Bailey</title>
         <meta name="description" content="A personal developer site for projects">
@@ -53,10 +53,17 @@
         <link rel="alternate" type="application/rss+xml" title="Megan Bailey" href="/feed.xml">
         
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-<link rel="stylesheet" href="/css/github-activity.css">
+        <link rel="stylesheet" href="/css/github-activity.css">
 
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-<script type="text/javascript" src="/js/github-activity.js"></script>
+
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+        <script type="text/javascript" src="/js/github-activity.js"></script>
+
+        <!-- Particles -->
+        <link href="./css/particles.css" rel="stylesheet">
+        <script type="text/javascript" src="/js/particles.js"></script>
+        <script type="text/javascript" src="/js/app.js"></script>
+
     <script type="text/javascript">
                     GitHubActivity.feed({
                         username: "megbailey",
@@ -73,10 +80,8 @@
             <i class="icon icon-list btn-mobile-menu__icon"></i>
             <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
         </span>
-
         <header class="panel-cover" style="background-image: url(/images/cover.jpg)">
             <div class="panel-main">
-
                 <div class="panel-main__inner panel-inverted">
                     <div class="panel-main__content">
                         <a href="/" title="link to home of Megan Bailey">
@@ -91,11 +96,21 @@
 
                             <nav class="cover-navigation cover-navigation--primary">
                                 <ul class="navigation">
-                                    <li class="navigation__item"><a href="/#projects" title="link to
-                                    Megan Bailey's projects" class="blog-button">Projects</a></li>
+                                    <li class="navigation__item"><a
+                                    href="/#github-stream" title="link to
+                                    Megan Bailey's Github Stream"
+                                    class="blog-button">Stream</a></li>
                                 </ul>
-                            </nav>
+                                <ul class="navigation">
+                                    <li class="navigation__item"><a
+                                    href="/#github-projects" title="link to
+                                    Megan Bailey's Github Projects"
+                                    class="blog-button">Projects</a></li>
+                                </ul>
 
+                            </nav>
+                        </div>
+                        <div class="navigation-wrapper">
                             <nav class="cover-navigation navigation--social">
                                 <ul class="navigation">
 
@@ -112,17 +127,13 @@
                                         </a>
                                     </li>
 
-
-
-                                    <!-- GitHub -->
+                                    <!-- GitHub-->
                                     <li class="navigation__item">
                                         <a href="https://www.github.com/megbailey" title="megbailey on GitHub" target="_blank">
                                             <i class="icon icon-social-github"></i>
                                             <span class="label">GitHub</span>
                                         </a>
                                     </li>
-
-
 
                                     <!-- Email -->
                                     <li class="navigation__item">
@@ -131,16 +142,11 @@
                                             <span class="label">Email</span>
                                         </a>
                                     </li>
-
                                 </ul>
-                            </nav>
-
+                            </nav>          
                         </div>
-
                     </div>
-
                 </div>
-
                 <div class="panel-cover--overlay"></div>
             </div>
         </header>
@@ -149,7 +155,6 @@
         <div class="content-wrapper">
             <div class="content-wrapper__inner">
                 <div id="feed"></div>
-
             </div>
 
             <footer class="footer">
